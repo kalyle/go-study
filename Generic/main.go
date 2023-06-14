@@ -1,20 +1,20 @@
 package main
 
 import (
-	"fmt"
 	_case "go-study/Generic/case"
 )
 
 // 泛型
 func main() {
-	a1, b1 := 1, 2
-	a2, b2 := "abc", "def"
-	c1 := _case.GetSumOfNum(a1, b1)
-	fmt.Println("getSumOfNum c1 =", c1)
-	c2 := _case.GetSumOfStr(a2, b2)
-	fmt.Println("getSumOfStr c2 =", c2)
-
+	_case.SimpleCase()
 }
 
-// gopath ,goroot含义
-// mod,work
+/*
+go中没有项目的说法，只有包
+GOROOT：GOROOT就是Go的安装目录
+GOPATH：GOPATH是我们的工作空间,保存go项目代码和第三方依赖包
+1.保存编译后的二进制文件。
+2.go get和go install命令会下载go代码到GOPATH。
+3.import包时的搜索路径
+*/
+// gomod,work
