@@ -64,3 +64,4 @@ type MyInt int
 type MyStr = string
 
 // go 内置两个泛型类型 any \ comparable
+// comparable 只支持 能使用==  ！=两个操作的类型，eg:int,float,string
