@@ -1,10 +1,10 @@
+// 泛型
 package main
 
 import (
 	_case "go-study/Generic/case"
 )
 
-// 泛型
 func main() {
 	_case.SimpleCase()
 }

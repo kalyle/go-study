@@ -10,4 +10,5 @@ import "fmt"
 
 func main() {
 	fmt.Printf("地址为%p", &[3]int{1, 2, 3})
+
 }
